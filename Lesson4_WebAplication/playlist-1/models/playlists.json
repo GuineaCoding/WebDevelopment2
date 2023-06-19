@@ -1,0 +1,21 @@
+{
+  "file": "./models/playlists.json",
+  "playlists": [
+    {
+      "title": "trter",
+      "_id": "479e6f5a-f35c-4563-a367-96edaa5a8d72"
+    },
+    {
+      "title": "rwer",
+      "_id": "082a539e-a45d-4f75-8105-3de7b7e19b83"
+    },
+    {
+      "title": "werrwe",
+      "_id": "68e2d2db-82a1-4607-b486-2601d5090961"
+    },
+    {
+      "title": "ewwe",
+      "_id": "f3c7dbfc-40ae-412a-bd3c-ff281ba762c8"
+    }
+  ]
+}

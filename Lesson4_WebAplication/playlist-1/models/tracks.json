@@ -1,0 +1,33 @@
+{
+  "file": "./models/tracks.json",
+  "tracks": [
+    {
+      "title": "wewe",
+      "artist": "wewe",
+      "duration": null,
+      "_id": "ce2d1a2e-51df-4b3b-9187-b6f322bc0a66",
+      "playlistid": "f3c7dbfc-40ae-412a-bd3c-ff281ba762c8"
+    },
+    {
+      "title": "wewe",
+      "artist": "weew",
+      "duration": null,
+      "_id": "326fb507-93f3-46fd-8b7b-bb041a63b8a8",
+      "playlistid": "f3c7dbfc-40ae-412a-bd3c-ff281ba762c8"
+    },
+    {
+      "title": "wwe",
+      "artist": "wewe",
+      "duration": null,
+      "_id": "2cb72b00-8485-4290-9175-348e41ca4c50",
+      "playlistid": "f3c7dbfc-40ae-412a-bd3c-ff281ba762c8"
+    },
+    {
+      "title": "wewe",
+      "artist": "we",
+      "duration": null,
+      "_id": "33560a43-72d1-413b-a24e-b3599f5d7d64",
+      "playlistid": "f3c7dbfc-40ae-412a-bd3c-ff281ba762c8"
+    }
+  ]
+}

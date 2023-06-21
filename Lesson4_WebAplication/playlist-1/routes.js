@@ -10,3 +10,5 @@ router.post("/dashboard/addplaylist", dashboardController.addPlaylist);
 router.post("/playlist/:id/addtrack", playlistController.addTrack);
 router.get("/about", aboutController.index);
 router.get("/playlist/:id", playlistController.index);
+router.get("/playlist/:playlistid/deletetrack/:trackid", playlistController.deleteTrack);
+router.get("/dashboard/deleteplaylist/:id", dashboardController.deletePlaylist);

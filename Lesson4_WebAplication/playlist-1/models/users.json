@@ -1,0 +1,40 @@
+{
+  "file": "./models/users.json",
+  "users": [
+    {
+      "firstName": "sdasdsa",
+      "lastName": "dadsa",
+      "email": "andrianwix@gmail.com",
+      "password": "12345",
+      "_id": "a1fc47ef-1c4c-4980-91b5-35f71e084f0e"
+    },
+    {
+      "firstName": "Andrian",
+      "lastName": "Barbulat",
+      "email": "andrianwix1@gmail.com",
+      "password": "12345",
+      "_id": "c5cd84cd-1788-4936-9148-26c7d659391c"
+    },
+    {
+      "firstName": "Andrian",
+      "lastName": "Barbulat",
+      "email": "andrian2@wix.com",
+      "password": "12345",
+      "_id": "8df4a1c2-b6c3-491b-ad6a-1aeb9c432f74"
+    },
+    {
+      "firstName": "Andrian",
+      "lastName": "Barbulat",
+      "email": "andrianwix3@gmail.com",
+      "password": "12345",
+      "_id": "b97f312b-84c2-4616-bfc7-961e65b00aca"
+    },
+    {
+      "firstName": "andrian",
+      "lastName": "test",
+      "email": "andrianwix24@gmail.com",
+      "password": "12345",
+      "_id": "c390e9d1-95c2-40dd-9d00-a4430c6d9bc0"
+    }
+  ]
+}

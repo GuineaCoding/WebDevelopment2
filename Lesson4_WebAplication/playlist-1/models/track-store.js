@@ -24,6 +24,7 @@ export const trackStore = {
   },
 
   async getTrackById(id) {
+    console.log(id);
     await db.read();
     return db.data.tracks.find((track) => track._id === id);
   },
@@ -42,6 +43,7 @@ export const trackStore = {
 
   async updateTrack(trackId, updatedTrack) {
     const track = await this.getTrackById(trackId);
+    console.log(track);
     track.title = updatedTrack.title;
     track.artist = updatedTrack.artist;
     track.duration = updatedTrack.duration;

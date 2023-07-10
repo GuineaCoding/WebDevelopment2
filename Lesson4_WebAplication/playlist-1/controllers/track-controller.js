@@ -16,6 +16,8 @@ export const trackController = {
 
   async update(request, response) {
     const playlistId = request.params.playlistid;
+    console.log(playlistId);
+    console.log('test');
     const trackId = request.params.trackid;
     const updatedTrack = {
       title: request.body.title,
@@ -24,7 +26,7 @@ export const trackController = {
     };
     console.log(`Updating Track ${trackId} from Playlist ${playlistId}`);
     const track = await trackStore.getTrackById(trackId);
-    await trackStore.updateTrack(track, updatedTrack);
+    await trackStore.updateTrack(trackId, updatedTrack);
     response.redirect("/playlist/" + playlistId);
   },
 };

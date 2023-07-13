@@ -1,9 +1,9 @@
 import axios from "axios";
 
-export const dashboardController = {
-    async addreport(request, response) {
-        console.log("rendering new report");
-        let report = {};
+export const weatherController = {
+  async addreport(request, response) {
+     console.log("rendering new report");
+     let report = {};
         const lat = request.body.lat;
         const lng = request.body.lng;
         const requestUrl = `https://api.openweathermap.org/data/2.5/weather?q=Tramore,Ireland&appid=eb23fec2f9ae9cce17349beea60ea3f0`
@@ -21,6 +21,9 @@ export const dashboardController = {
           title: "Weather Report",
           reading: report
         };
-        response.render("dashboard-view", viewData);
+        response.render("create-weather-report", viewData);
+      },
+      createWeatherReportPage(request, response) {
+        response.render("create-weather-report", { title: "Create Weather Report" });
       },
 }

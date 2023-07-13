@@ -21,10 +21,6 @@
       await playlistStore.addPlaylist(newPlayList);
       response.redirect("/dashboard");
     },
-    createWeatherReportPage(request, response) {
-      response.render("create-weather-report", { title: "Create Weather Report" });
-    },
-
     async deletePlaylist(request, response) {
       const playlistId = request.params.id;
       console.log(`Deleting Playlist ${playlistId}`);
